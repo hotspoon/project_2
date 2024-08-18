@@ -1,0 +1,237 @@
+[0m20:30:22.154688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ec3f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ec3610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ec3750>]}
+
+
+============================== 20:30:22.161792 | 8d1c672c-2830-430d-b3d7-626eddfbee89 ==============================
+[0m20:30:22.161792 [info ] [MainThread]: Running with dbt=1.5.11
+[0m20:30:22.162708 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/faris/Documents/digitalskola/project/belajar_docker/dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m20:30:46.071471 [debug] [MainThread]: Starter project path: /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/dbt/include/starter_project
+[0m20:31:25.103733 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:31:25.105006 [debug] [MainThread]: Command `dbt init` succeeded at 20:31:25.104776 after 63.09 seconds
+[0m20:31:25.105504 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fb76f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ebe6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110f4a1d0>]}
+[0m20:31:25.105994 [debug] [MainThread]: Flushing usage events
+[0m20:41:24.041110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ec8b790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e4e3fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ec8bf10>]}
+
+
+============================== 20:41:24.047687 | 519b33f6-427b-43a0-867e-12baa776e95b ==============================
+[0m20:41:24.047687 [info ] [MainThread]: Running with dbt=1.5.11
+[0m20:41:24.048477 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/faris/Documents/digitalskola/project/belajar_docker/dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m20:41:24.049293 [info ] [MainThread]: dbt version: 1.5.11
+[0m20:41:24.049744 [info ] [MainThread]: python version: 3.7.13
+[0m20:41:24.050174 [info ] [MainThread]: python path: /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/bin/python3.7
+[0m20:41:24.050588 [info ] [MainThread]: os info: Darwin-23.4.0-x86_64-i386-64bit
+[0m20:41:24.051001 [info ] [MainThread]: Using profiles.yml file at /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/profiles.yml
+[0m20:41:24.051441 [info ] [MainThread]: Using dbt_project.yml file at /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/dbt_project.yml
+[0m20:41:24.051860 [info ] [MainThread]: Configuration:
+[0m20:41:24.183722 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m20:41:24.184347 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:41:24.184789 [info ] [MainThread]: Required dependencies:
+[0m20:41:24.185274 [debug] [MainThread]: Executing "git --help"
+[0m20:41:24.802020 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:41:24.803311 [debug] [MainThread]: STDERR: "b''"
+[0m20:41:24.803742 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:41:24.804315 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m20:41:24.804778 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m20:41:24.805242 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_project", target "dev" invalid: ['dbname'] is not of type 'string'
+
+
+[0m20:41:24.806213 [debug] [MainThread]: Command `dbt debug` failed at 20:41:24.805988 after 0.84 seconds
+[0m20:41:24.806939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a9c08d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ec87d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ec87b90>]}
+[0m20:41:24.807575 [debug] [MainThread]: Flushing usage events
+[0m21:35:43.026397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f2a8a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f2a8510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f2a8450>]}
+
+
+============================== 21:35:43.033859 | 12b8322c-8e54-4b2e-8d4f-f2faaf9b796e ==============================
+[0m21:35:43.033859 [info ] [MainThread]: Running with dbt=1.5.11
+[0m21:35:43.034692 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/faris/Documents/digitalskola/project/belajar_docker/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m21:35:43.856253 [error] [MainThread]: Encountered an error:
+
+[0m21:35:43.860415 [error] [MainThread]: Traceback (most recent call last):
+  File "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/dbt/cli/requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/dbt/cli/requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/dbt/cli/main.py", line 475, in init
+    results = task.run()
+  File "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/dbt/task/init.py", line 288, in run
+    project_name = self.get_valid_project_name()
+  File "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/dbt/task/init.py", line 243, in get_valid_project_name
+    name = click.prompt("Enter a name for your project (letters, digits, underscore)")
+  File "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m21:35:43.862117 [debug] [MainThread]: Command `dbt init` failed at 21:35:43.861762 after 0.91 seconds
+[0m21:35:43.863053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f2ee210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f2d9c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f2d9ed0>]}
+[0m21:35:43.863756 [debug] [MainThread]: Flushing usage events
+[0m21:37:03.247772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cfb9e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cfc3910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cfc3550>]}
+
+
+============================== 21:37:03.254273 | ac73bc37-2a12-420c-9f50-a07e263479d6 ==============================
+[0m21:37:03.254273 [info ] [MainThread]: Running with dbt=1.5.11
+[0m21:37:03.255081 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/faris/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m21:37:03.255826 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/faris/.dbt')}
+[0m21:37:03.256305 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:37:38.411983 [debug] [MainThread]: Starter project path: /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/dbt/include/starter_project
+[0m21:37:42.289019 [info ] [MainThread]: Profile data_warehouse written to /Users/faris/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m21:37:42.289696 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:37:42.290603 [debug] [MainThread]: Command `dbt init` succeeded at 21:37:42.290387 after 39.09 seconds
+[0m21:37:42.291086 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8f3750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfab8d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cfc3990>]}
+[0m21:37:42.291559 [debug] [MainThread]: Flushing usage events
+[0m21:39:14.458271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb7d250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb7d690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb7df10>]}
+
+
+============================== 21:39:14.464766 | 3e98ce73-c6ab-4f9d-b55b-153c7b7983f1 ==============================
+[0m21:39:14.464766 [info ] [MainThread]: Running with dbt=1.5.11
+[0m21:39:14.465642 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/faris/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m21:39:20.625394 [debug] [MainThread]: Starter project path: /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/lib/python3.7/site-packages/dbt/include/starter_project
+[0m21:39:30.783976 [info ] [MainThread]: 
+Your new dbt project "data_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:39:30.785025 [debug] [MainThread]: Command `dbt init` succeeded at 21:39:30.784791 after 16.39 seconds
+[0m21:39:30.785505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb7d2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c555c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb6ff10>]}
+[0m21:39:30.785996 [debug] [MainThread]: Flushing usage events
+[0m21:43:39.874929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb384d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae72590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae725d0>]}
+
+
+============================== 21:43:39.881217 | 2b3fc0bc-0833-46ab-9bf6-71b4d4da69b1 ==============================
+[0m21:43:39.881217 [info ] [MainThread]: Running with dbt=1.5.11
+[0m21:43:39.882027 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/faris/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m21:43:39.882854 [info ] [MainThread]: dbt version: 1.5.11
+[0m21:43:39.883311 [info ] [MainThread]: python version: 3.7.13
+[0m21:43:39.883732 [info ] [MainThread]: python path: /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/bin/python3.7
+[0m21:43:39.884155 [info ] [MainThread]: os info: Darwin-23.4.0-x86_64-i386-64bit
+[0m21:43:39.884563 [info ] [MainThread]: Using profiles.yml file at /Users/faris/.dbt/profiles.yml
+[0m21:43:39.884974 [info ] [MainThread]: Using dbt_project.yml file at /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/dbt_project.yml
+[0m21:43:39.885391 [info ] [MainThread]: Configuration:
+[0m21:43:40.000213 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:43:40.000814 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:43:40.001263 [info ] [MainThread]: Required dependencies:
+[0m21:43:40.001756 [debug] [MainThread]: Executing "git --help"
+[0m21:43:40.082236 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:43:40.083483 [debug] [MainThread]: STDERR: "b''"
+[0m21:43:40.083945 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:43:40.084489 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:43:40.084931 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m21:43:40.085355 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "data_warehouse", target "dev" invalid: ['dbname'] is not of type 'string'
+
+
+[0m21:43:40.086340 [debug] [MainThread]: Command `dbt debug` failed at 21:43:40.086122 after 0.28 seconds
+[0m21:43:40.087043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb387d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cb38650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae75490>]}
+[0m21:43:40.087672 [debug] [MainThread]: Flushing usage events
+[0m21:44:23.244908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f1c7190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f1c3750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f1c7350>]}
+
+
+============================== 21:44:23.251260 | ae0f47ed-b6ed-48c4-88b8-dee33e1925c7 ==============================
+[0m21:44:23.251260 [info ] [MainThread]: Running with dbt=1.5.11
+[0m21:44:23.252098 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/faris/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m21:44:23.252971 [info ] [MainThread]: dbt version: 1.5.11
+[0m21:44:23.253432 [info ] [MainThread]: python version: 3.7.13
+[0m21:44:23.253856 [info ] [MainThread]: python path: /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/bin/python3.7
+[0m21:44:23.254285 [info ] [MainThread]: os info: Darwin-23.4.0-x86_64-i386-64bit
+[0m21:44:23.254701 [info ] [MainThread]: Using profiles.yml file at /Users/faris/.dbt/profiles.yml
+[0m21:44:23.255132 [info ] [MainThread]: Using dbt_project.yml file at /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/dbt_project.yml
+[0m21:44:23.255570 [info ] [MainThread]: Configuration:
+[0m21:44:23.372226 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:44:23.372847 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:44:23.373304 [info ] [MainThread]: Required dependencies:
+[0m21:44:23.373803 [debug] [MainThread]: Executing "git --help"
+[0m21:44:23.411408 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:44:23.412842 [debug] [MainThread]: STDERR: "b''"
+[0m21:44:23.413293 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:44:23.413826 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:44:23.414285 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m21:44:23.414723 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "data_warehouse", target "dev" invalid: ['dbname'] is not of type 'string'
+
+
+[0m21:44:23.415671 [debug] [MainThread]: Command `dbt debug` failed at 21:44:23.415465 after 0.23 seconds
+[0m21:44:23.416348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f1c7390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f1c7590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f1c7410>]}
+[0m21:44:23.416972 [debug] [MainThread]: Flushing usage events
+[0m21:46:28.669213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f5c8250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f5c8550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f5c84d0>]}
+
+
+============================== 21:46:28.675808 | 60735b82-d280-4109-847c-1f4f4601237c ==============================
+[0m21:46:28.675808 [info ] [MainThread]: Running with dbt=1.5.11
+[0m21:46:28.676654 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/faris/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m21:46:28.677503 [info ] [MainThread]: dbt version: 1.5.11
+[0m21:46:28.677975 [info ] [MainThread]: python version: 3.7.13
+[0m21:46:28.678396 [info ] [MainThread]: python path: /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/devEnv/bin/python3.7
+[0m21:46:28.678821 [info ] [MainThread]: os info: Darwin-23.4.0-x86_64-i386-64bit
+[0m21:46:28.679227 [info ] [MainThread]: Using profiles.yml file at /Users/faris/.dbt/profiles.yml
+[0m21:46:28.679646 [info ] [MainThread]: Using dbt_project.yml file at /Users/faris/Documents/digitalskola/project/belajar_docker/dbt/dbt_project.yml
+[0m21:46:28.680058 [info ] [MainThread]: Configuration:
+[0m21:46:28.795014 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m21:46:28.795635 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:46:28.796086 [info ] [MainThread]: Required dependencies:
+[0m21:46:28.796600 [debug] [MainThread]: Executing "git --help"
+[0m21:46:28.833266 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:46:28.834751 [debug] [MainThread]: STDERR: "b''"
+[0m21:46:28.835266 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:46:28.836491 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:46:28.837066 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m21:46:28.837539 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "data_warehouse", target "dev" invalid: ['dbname'] is not of type 'string'
+
+
+[0m21:46:28.839595 [debug] [MainThread]: Command `dbt debug` failed at 21:46:28.838419 after 0.24 seconds
+[0m21:46:28.840403 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f5f3a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f5f3ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d9215d0>]}
+[0m21:46:28.841382 [debug] [MainThread]: Flushing usage events
