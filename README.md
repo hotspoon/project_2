@@ -67,11 +67,11 @@ This project is a data warehouse setup using dbt (data build tool). It includes 
    ```sh
    dbt docs generate
    ```
-   - **Serve the documentation:**
+4. **Serve the documentation:**
    ```sh
    dbt docs serve
    ```
-4. **Deactivate the virtual environment:**
+5. **Deactivate the virtual environment:**
 
    ```sh
     deactivate
