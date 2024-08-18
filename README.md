@@ -2,6 +2,12 @@
 
 This project is a data warehouse setup using dbt (data build tool). It includes configurations, models, macros, and tests to transform raw data into meaningful insights.
 
+## Table of Contents
+
+<!-- how to insert image in readme -->
+
+![dbt logo](https://github.com/hotspoon/project_2/blob/main/result.png?raw=true)
+
 ## Prerequisites
 
 - Docker
