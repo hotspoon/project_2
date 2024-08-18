@@ -64,7 +64,6 @@ This project is a data warehouse setup using dbt (data build tool). It includes 
      dbt debug
      ```
 3. **Generate and serve the documentation:**
-   - **Generate and serve the documentation:**
    ```sh
    dbt docs generate
    ```
