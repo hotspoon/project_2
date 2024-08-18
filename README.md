@@ -19,8 +19,8 @@ This project is a data warehouse setup using dbt (data build tool). It includes 
 1. **Clone the repository:**
 
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/hotspoon/project_2
+   cd project_2
    ```
 
 2. **Build and start the Docker containers:**
@@ -39,7 +39,7 @@ This project is a data warehouse setup using dbt (data build tool). It includes 
    ```
 
 4. **Configure dbt:**
-   - Update the `profiles.yml` file located at [`dbt/data_warehouse/profiles.yml`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Ffaris%2FDocuments%2Fdigitalskola%2Fproject%2Fbelajar_docker%2Fdbt%2Fdata_warehouse%2Fprofiles.yml%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/data_warehouse/profiles.yml") with your database credentials.
+   - Update the `profiles.yml` file located at [`project_2/data_warehouse/profiles.yml`] with your database credentials.
    - Ensure the `dbt_project.yml` file is correctly configured.
 
 ## Running dbt
@@ -59,14 +59,24 @@ This project is a data warehouse setup using dbt (data build tool). It includes 
      ```sh
      dbt run
      ```
-   - **Test dbt models:**
+   - **Debug dbt models:**
      ```sh
-     dbt test
+     dbt debug
      ```
+3. **Generate and serve the documentation:**
+   - **Generate and serve the documentation:**
+   ```sh
+   dbt docs generate
+   ```
+   - **Serve the documentation:**
+   ```sh
+   dbt docs serve
+   ```
+4. **Deactivate the virtual environment:**
 
-## Logs
-
-Logs are stored in the [`dbt/logs/dbt.log`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FUsers%2Ffaris%2FDocuments%2Fdigitalskola%2Fproject%2Fbelajar_docker%2Fdbt%2Flogs%2Fdbt.log%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "/Users/faris/Documents/digitalskola/project/belajar_docker/dbt/logs/dbt.log") file. Check this file for detailed information about the dbt operations.
+   ```sh
+    deactivate
+   ```
 
 ## Troubleshooting
 
